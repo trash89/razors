@@ -1,21 +1,8 @@
 <script>
   export let title = "";
-  //import { onMount, onDestroy } from "svelte";
   import products from "../../stores/defaultProducts";
   import Product from "./Product.svelte";
   import Loading from "../Loading.svelte";
-  //console.log(products);
-  //console.log($products);
-  //let localProducts = $products;
-  //let unsubscribe;
-  //   onMount(() => {
-  //     unsubscribe = products.subscribe((value) => {
-  //       localProducts = value;
-  //     });
-  //   });
-  //   onDestroy(() => {
-  //     unsubscribe();
-  //   });
 </script>
 
 <section class="section">
